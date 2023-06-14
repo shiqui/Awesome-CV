@@ -1,0 +1,19 @@
+# Fdb version 4
+["pdflatex"] 1686709173 "/Users/mac/Desktop/repos/Awesome-CV/examples/cv.tex" "cv.pdf" "cv" 1686709173 2
+  "/Users/mac/Desktop/repos/Awesome-CV/examples/cv.tex" 1686708946 3679 888a358a0e82a389c50d9146ee876f52 ""
+  "/Users/mac/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/Users/mac/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls" 1686341992 20144 fbcf51733730d8f1a62143512ff5b1fe ""
+  "/Users/mac/Library/TinyTeX/texmf-dist/tex/latex/base/size11.clo" 1686341992 8464 a4a9a859b7fd5b6c1450673c4d301348 ""
+  "/Users/mac/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty" 1686341992 12691 ddae4e0162a664f166015d992388b742 ""
+  "/Users/mac/Library/TinyTeX/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
+  "/Users/mac/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1686626254 6494406 3628d914be8dfc81558086914f84695d ""
+  "/Users/mac/Library/TinyTeX/texmf.cnf" 1686626157 637 edd806fb06a89761a6034e1968af9017 ""
+  "awesome-cv.cls" 1686708946 28882 4df5ad4ba593bb2311de3ff1e9af7e4c ""
+  "cv.aux" 1686709173 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "cv.tex" 1686708946 3679 888a358a0e82a389c50d9146ee876f52 ""
+  "enumitem.sty" 0 -1 0 ""
+  (generated)
+  "cv.aux"
+  "cv.log"
+  "cv.pdf"
+  (rewritten before read)
