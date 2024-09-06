@@ -161,11 +161,21 @@
 %-------------------------------------------------------------------------------
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
-\newcommand*{\headerfont}{\roboto}
-\newcommand*{\headerfontlight}{\robotolight}
-\newcommand*{\footerfont}{\sourcesanspro}
-\newcommand*{\bodyfont}{\sourcesanspro}
-\newcommand*{\bodyfontlight}{\sourcesansprolight}
+% \newcommand*{\headerfont}{\roboto}
+% \newcommand*{\headerfontlight}{\robotolight}
+% \newcommand*{\footerfont}{\sourcesanspro}
+% \newcommand*{\bodyfont}{\sourcesanspro}
+% \newcommand*{\bodyfontlight}{\sourcesansprolight}
+
+\usepackage{fontspec}
+\newfontfamily\jetbrainsmono{JetBrains Mono}
+\newfontfamily\jetbrainsmonolight{JetBrainsMono-Light.ttf}
+
+\newcommand*{\headerfont}{\jetbrainsmono}
+\newcommand*{\headerfontlight}{\jetbrainsmonolight}
+\newcommand*{\footerfont}{\jetbrainsmono}
+\newcommand*{\bodyfont}{\jetbrainsmono}
+\newcommand*{\bodyfontlight}{\jetbrainsmonolight}
 
 %-------------------------------------------------------------------------------
 %                Configuration for styles
