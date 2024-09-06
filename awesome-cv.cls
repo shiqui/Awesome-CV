@@ -146,7 +146,11 @@
 \definecolor{awesome-nephritis}{HTML}{27AE60}
 \definecolor{awesome-concrete}{HTML}{95A5A6}
 \definecolor{awesome-darknight}{HTML}{131A28}
+\definecolor{accent}{HTML}{D28A37}
+\definecolor{accent-muted}{HTML}{CC7B1F}
 \colorlet{awesome}{awesome-red}
+\colorlet{accent}{accent}
+\colorlet{accent-muted}{accent-muted}
 
 % Boolean value to switch section color highlighting
 \newbool{acvSectionColorHighlight}
@@ -161,21 +165,21 @@
 %-------------------------------------------------------------------------------
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
-% \newcommand*{\headerfont}{\roboto}
-% \newcommand*{\headerfontlight}{\robotolight}
-% \newcommand*{\footerfont}{\sourcesanspro}
-% \newcommand*{\bodyfont}{\sourcesanspro}
-% \newcommand*{\bodyfontlight}{\sourcesansprolight}
+\newcommand*{\headerfont}{\roboto}
+\newcommand*{\headerfontlight}{\robotolight}
+\newcommand*{\footerfont}{\sourcesanspro}
+\newcommand*{\bodyfont}{\sourcesanspro}
+\newcommand*{\bodyfontlight}{\sourcesansprolight}
 
-\usepackage{fontspec}
-\newfontfamily\jetbrainsmono{JetBrains Mono}
-\newfontfamily\jetbrainsmonolight{JetBrainsMono-Light.ttf}
+% \usepackage{fontspec}
+% \newfontfamily\jetbrainsmono{JetBrains Mono}
+% \newfontfamily\jetbrainsmonolight{JetBrainsMono-Light.ttf}
 
-\newcommand*{\headerfont}{\jetbrainsmono}
-\newcommand*{\headerfontlight}{\jetbrainsmonolight}
-\newcommand*{\footerfont}{\jetbrainsmono}
-\newcommand*{\bodyfont}{\jetbrainsmono}
-\newcommand*{\bodyfontlight}{\jetbrainsmonolight}
+% \newcommand*{\headerfont}{\jetbrainsmono}
+% \newcommand*{\headerfontlight}{\jetbrainsmonolight}
+% \newcommand*{\footerfont}{\jetbrainsmono}
+% \newcommand*{\bodyfont}{\jetbrainsmono}
+% \newcommand*{\bodyfontlight}{\jetbrainsmonolight}
 
 %-------------------------------------------------------------------------------
 %                Configuration for styles
@@ -189,15 +193,15 @@
 \newcommand*{\headersocialstyle}[1]{{\fontsize{6.8pt}{1em}\headerfont\color{text} #1}}
 \newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{darktext} #1}}
 \newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\scshape\color{lighttext} #1}}
-\newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
+\newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{accent-muted}\@sectioncolor #1}}
 \newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}}
 \newcommand*{\paragraphstyle}{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text}}
 
 % For elements of entry
-\newcommand*{\entrytitlestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\entrytitlestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{accent} #1}}
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{8pt}{1em}\bodyfont\scshape\color{graytext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
-\newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
+\newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\descriptionstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
 % For elements of subentry
